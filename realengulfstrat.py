@@ -85,7 +85,7 @@ def trading_job():
     
     print(dfstream.iloc[:-1])
     print(f"TPBuy={TPBuy}, SLBuy={SLBuy}, TPSell={TPSell}, SLSell={SLSell}")
-    signal = 1
+    signal = 1 # testing
     if signal == 1:
         mo = MarketOrderRequest(
             instrument="EUR_USD",
