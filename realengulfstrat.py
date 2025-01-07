@@ -3,7 +3,7 @@
 """
 Created on Thu Dec 19 12:42:03 2024
 
-@author: dami
+@author: Tayyib Salawu
 """
 
 import yfinance as yf
@@ -44,8 +44,8 @@ import oandapyV20.endpoints.orders as orders
 from oandapyV20.contrib.requests import MarketOrderRequest, TakeProfitDetails, StopLossDetails
 from oanda_candles import Pair, Gran, CandleClient
 
-access_token = "084ff97e3c6ea6b433ba444c7f3665ef-48775d018d0e1d6f5f3489d4e6fb7ecc"
-accountID = "101-004-30575365-001"
+access_token = "insert access token"
+accountID = "insert account id"
 def get_candles(n):
     
     client = CandleClient(access_token, real=False)
